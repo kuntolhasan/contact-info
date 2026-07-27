@@ -665,7 +665,7 @@
             <div class="hero-header">
                 <div class="user-profile">
                     <h1>Abid Hasan Kuntol</h1>
-                    <div class="tagline">Online Sales & Digital Marketing Executive</div>
+                    <div class="tagline">Customer Experience Specialist</div>
                     <div class="address">
                         <i class="fa-solid fa-location-dot"></i>
                         <span>Khilgaon Chowdhuripara, Dhaka-1219</span>
@@ -673,7 +673,7 @@
                 </div>
 
                 <div class="photo-container">
-                    <img src="IMG_2268.JPG.jpeg" alt="Abid Hasan Kuntol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="IMG2JPG.jpg" alt="Abid Hasan Kuntol" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="photo-placeholder" style="display:none;">
                         <i class="fa-solid fa-user-tie"></i>
                         <span>PP Size Photo</span>
@@ -687,7 +687,7 @@
                     <i class="fa-solid fa-phone"></i> Phone Call
                 </a>
 
-                <!-- Smart Dual-Action Email Button (Smart Fallback for Mobile & Web) -->
+                <!-- Smart Dual-Action Email Button -->
                 <a href="javascript:void(0)" onclick="smartEmailOpen('kuntolhasan@gmail.com')" class="btn btn-email">
                     <i class="fa-solid fa-envelope"></i> Send Email
                 </a>
@@ -867,10 +867,8 @@
             const mailtoUrl = `mailto:${email}`;
             const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`;
             
-            // Try opening system default mail client (Mobile Mail App / Desktop App)
             window.location.href = mailtoUrl;
 
-            // Fallback to Gmail Web Composer if system app is not triggered
             setTimeout(function() {
                 if (!document.hidden) {
                     window.open(gmailUrl, '_blank');
