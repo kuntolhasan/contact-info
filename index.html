@@ -140,7 +140,6 @@
             background: #ffffff;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             flex-shrink: 0;
@@ -161,7 +160,6 @@
             height: 100%;
             object-fit: cover;
             object-position: center;
-            background-color: #ffffff;
         }
 
         .action-bar {
@@ -193,37 +191,17 @@
             transform: translateY(-3px) scale(1.03);
         }
 
-        .btn-primary {
-            background-color: #2563eb;
-            color: #ffffff;
-        }
-        .btn-primary:hover {
-            box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
-        }
+        .btn-primary { background-color: #2563eb; color: #ffffff; }
+        .btn-primary:hover { box-shadow: 0 0 20px rgba(37, 99, 235, 0.4); }
 
-        .btn-email {
-            background-color: #0891b2;
-            color: #ffffff;
-        }
-        .btn-email:hover {
-            box-shadow: 0 0 20px rgba(8, 145, 178, 0.4);
-        }
+        .btn-email { background-color: #0891b2; color: #ffffff; }
+        .btn-email:hover { box-shadow: 0 0 20px rgba(8, 145, 178, 0.4); }
 
-        .btn-success {
-            background-color: #16a34a;
-            color: #ffffff;
-        }
-        .btn-success:hover {
-            box-shadow: 0 0 20px rgba(22, 163, 74, 0.4);
-        }
+        .btn-success { background-color: #16a34a; color: #ffffff; }
+        .btn-success:hover { box-shadow: 0 0 20px rgba(22, 163, 74, 0.4); }
 
-        .btn-linkedin {
-            background-color: #0a66c2;
-            color: #ffffff;
-        }
-        .btn-linkedin:hover {
-            box-shadow: 0 0 20px rgba(10, 102, 194, 0.4);
-        }
+        .btn-linkedin { background-color: #0a66c2; color: #ffffff; }
+        .btn-linkedin:hover { box-shadow: 0 0 20px rgba(10, 102, 194, 0.4); }
 
         .main-content {
             padding: 35px 40px;
@@ -277,12 +255,8 @@
             font-size: 0.95rem;
         }
 
-        .experience-timeline {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
+        .experience-timeline { display: flex; flex-direction: column; gap: 14px; }
+        
         .experience-card {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -298,25 +272,10 @@
             box-shadow: 0 4px 15px rgba(37, 99, 235, 0.12);
         }
 
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 8px;
-        }
-
-        .job-title {
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--text-dark);
-        }
-
-        .company-name {
-            color: var(--primary);
-            font-weight: 600;
-            font-size: 0.9rem;
-        }
-
+        .job-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+        .job-title { font-size: 1rem; font-weight: 700; color: var(--text-dark); }
+        .company-name { color: var(--primary); font-weight: 600; font-size: 0.9rem; }
+        
         .badge-date {
             background: #ffffff;
             color: var(--text-muted);
@@ -327,13 +286,8 @@
             border: 1px solid #e2e8f0;
         }
 
-        .job-list {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
+        .job-list { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+        
         .job-list li {
             position: relative;
             padding-left: 20px;
@@ -352,12 +306,8 @@
             top: 2px;
         }
 
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 14px;
-        }
-
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+        
         .skill-box {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -372,26 +322,11 @@
             background: #ffffff;
         }
 
-        .skill-box h4 {
-            font-size: 0.9rem;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
+        .skill-box h4 { font-size: 0.9rem; font-weight: 700; color: var(--text-dark); margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .skill-box h4 i { color: var(--primary); }
 
-        .skill-box h4 i {
-            color: var(--primary);
-        }
-
-        .skill-pills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
-
+        .skill-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+        
         .pill {
             background: #ffffff;
             color: var(--text-dark);
@@ -403,18 +338,10 @@
             transition: all 0.2s ease;
         }
 
-        .pill:hover {
-            border-color: var(--primary);
-            color: var(--primary);
-            box-shadow: 0 0 10px rgba(37, 99, 235, 0.2);
-        }
+        .pill:hover { border-color: var(--primary); color: var(--primary); box-shadow: 0 0 10px rgba(37, 99, 235, 0.2); }
 
-        .edu-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 14px;
-        }
-
+        .edu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+        
         .edu-card {
             background: #f8fafc;
             border: 1px solid #e2e8f0;
@@ -426,24 +353,10 @@
             transition: all 0.25s ease;
         }
 
-        .edu-card:hover {
-            border-color: var(--primary);
-            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.15);
-            background: #ffffff;
-        }
-
-        .edu-degree {
-            font-weight: 700;
-            color: var(--text-dark);
-            font-size: 0.92rem;
-        }
-
-        .edu-school {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            margin-bottom: 10px;
-        }
-
+        .edu-card:hover { border-color: var(--primary); box-shadow: 0 4px 15px rgba(37, 99, 235, 0.15); background: #ffffff; }
+        .edu-degree { font-weight: 700; color: var(--text-dark); font-size: 0.92rem; }
+        .edu-school { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 10px; }
+        
         .edu-footer {
             display: flex;
             justify-content: space-between;
@@ -481,169 +394,39 @@
             transition: all 0.2s ease;
         }
 
-        .btn-pdf-bottom:hover {
-            border-color: var(--primary);
-            color: var(--primary);
-            box-shadow: 0 0 10px rgba(37, 99, 235, 0.2);
-        }
+        .btn-pdf-bottom:hover { border-color: var(--primary); color: var(--primary); box-shadow: 0 0 10px rgba(37, 99, 235, 0.2); }
 
         @media print {
-            @page {
-                size: A4 portrait;
-                margin: 0;
-            }
-
-            html, body {
-                height: 100%;
-                background: #ffffff !important;
-                padding: 0 !important;
-                margin: 0 !important;
-                display: block !important;
-                color: #000000 !important;
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-            }
-
-            .resume-card {
-                max-width: 100% !important;
-                width: 100% !important;
-                box-shadow: none !important;
-                border-radius: 0 !important;
-                border: none !important;
-            }
-
-            .hero-banner {
-                background: #e0f2fe !important;
-                padding: 15px 25px 12px 25px !important;
-            }
-
-            .hero-header {
-                margin-bottom: 0 !important;
-            }
-
-            .action-bar, footer, .btn-pdf-bottom {
-                display: none !important;
-            }
-
-            .main-content {
-                padding: 12px 25px !important;
-                gap: 8px !important;
-            }
-
-            .zoom-section {
-                padding: 8px 10px !important;
-                border: 1px solid #cbd5e1 !important;
-                border-radius: 8px !important;
-                transform: none !important;
-                box-shadow: none !important;
-                break-inside: avoid !important;
-                opacity: 1 !important;
-            }
-
-            .section-title {
-                font-size: 0.95rem !important;
-                margin-bottom: 4px !important;
-            }
-
-            .section-title i {
-                padding: 3px 6px !important;
-                font-size: 0.8rem !important;
-            }
-
-            .experience-timeline {
-                gap: 6px !important;
-            }
-
-            .experience-card, .skill-box, .edu-card {
-                padding: 6px 8px !important;
-                transform: none !important;
-                box-shadow: none !important;
-                break-inside: avoid !important;
-            }
-
-            .job-header {
-                margin-bottom: 3px !important;
-            }
-
-            .job-title {
-                font-size: 0.88rem !important;
-            }
-
-            .company-name {
-                font-size: 0.8rem !important;
-            }
-
-            .badge-date {
-                font-size: 0.7rem !important;
-                padding: 2px 8px !important;
-            }
-
-            .job-list {
-                gap: 2px !important;
-            }
-
-            p, li {
-                font-size: 0.78rem !important;
-                line-height: 1.25 !important;
-            }
-
-            .skills-grid {
-                gap: 6px !important;
-            }
-
-            .skill-box h4 {
-                font-size: 0.82rem !important;
-                margin-bottom: 4px !important;
-            }
-
-            .pill {
-                font-size: 0.7rem !important;
-                padding: 2px 6px !important;
-            }
-
-            .edu-grid {
-                gap: 6px !important;
-            }
-
-            .edu-degree {
-                font-size: 0.82rem !important;
-            }
-
-            .edu-school {
-                font-size: 0.75rem !important;
-                margin-bottom: 4px !important;
-            }
-
-            .edu-footer {
-                font-size: 0.7rem !important;
-                padding: 2px 6px !important;
-            }
-
-            /* Precise 35mm x 45mm Print Scale */
-            .photo-container {
-                width: 35mm !important;
-                height: 45mm !important;
-                margin-right: 0 !important;
-                border-radius: 6px !important;
-            }
-
-            .user-profile h1 {
-                font-size: 1.4rem !important;
-            }
-
-            .user-profile .tagline {
-                font-size: 0.88rem !important;
-                margin-bottom: 4px !important;
-            }
-
-            .user-profile .address {
-                font-size: 0.8rem !important;
-            }
-
-            .fade-up {
-                opacity: 1 !important;
-                transform: none !important;
-            }
+            @page { size: A4 portrait; margin: 0; }
+            html, body { height: 100%; background: #ffffff !important; padding: 0 !important; margin: 0 !important; display: block !important; color: #000000 !important; -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+            .resume-card { max-width: 100% !important; width: 100% !important; box-shadow: none !important; border-radius: 0 !important; border: none !important; }
+            .hero-banner { background: #e0f2fe !important; padding: 15px 25px 12px 25px !important; }
+            .hero-header { margin-bottom: 0 !important; }
+            .action-bar, footer, .btn-pdf-bottom { display: none !important; }
+            .main-content { padding: 12px 25px !important; gap: 8px !important; }
+            .zoom-section { padding: 8px 10px !important; border: 1px solid #cbd5e1 !important; border-radius: 8px !important; transform: none !important; box-shadow: none !important; break-inside: avoid !important; opacity: 1 !important; }
+            .section-title { font-size: 0.95rem !important; margin-bottom: 4px !important; }
+            .section-title i { padding: 3px 6px !important; font-size: 0.8rem !important; }
+            .experience-timeline { gap: 6px !important; }
+            .experience-card, .skill-box, .edu-card { padding: 6px 8px !important; transform: none !important; box-shadow: none !important; break-inside: avoid !important; }
+            .job-header { margin-bottom: 3px !important; }
+            .job-title { font-size: 0.88rem !important; }
+            .company-name { font-size: 0.8rem !important; }
+            .badge-date { font-size: 0.7rem !important; padding: 2px 8px !important; }
+            .job-list { gap: 2px !important; }
+            p, li { font-size: 0.78rem !important; line-height: 1.25 !important; }
+            .skills-grid { gap: 6px !important; }
+            .skill-box h4 { font-size: 0.82rem !important; margin-bottom: 4px !important; }
+            .pill { font-size: 0.7rem !important; padding: 2px 6px !important; }
+            .edu-grid { gap: 6px !important; }
+            .edu-degree { font-size: 0.82rem !important; }
+            .edu-school { font-size: 0.75rem !important; margin-bottom: 4px !important; }
+            .edu-footer { font-size: 0.7rem !important; padding: 2px 6px !important; }
+            .photo-container { width: 35mm !important; height: 45mm !important; margin-right: 0 !important; border-radius: 6px !important; }
+            .user-profile h1 { font-size: 1.4rem !important; }
+            .user-profile .tagline { font-size: 0.88rem !important; margin-bottom: 4px !important; }
+            .user-profile .address { font-size: 0.8rem !important; }
+            .fade-up { opacity: 1 !important; transform: none !important; }
         }
     </style>
 </head>
@@ -662,8 +445,9 @@
                     </div>
                 </div>
 
+                <!-- Your Direct Photo Link Attached Here -->
                 <div class="photo-container">
-                    <img src="https://instasize.com/p/f605413b8ebc123f77f5b02270128d84b7421f7264b8d30a437e65b443b17dc8" alt="Abid Hasan Kuntol">
+                    <img src="https://media.instasize.com/00000000-0000-0000-0000-000000000000/f605413b-8ebc-123f-77f5-b02270128d84?fit=crop&width=1000&height=1000" alt="Abid Hasan Kuntol">
                 </div>
             </div>
 
